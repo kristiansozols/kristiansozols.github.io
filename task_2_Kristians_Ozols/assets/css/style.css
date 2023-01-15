@@ -1,0 +1,167 @@
+.header {
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  .header a {
+    float: left;
+    color: #060606;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  .header-right {
+    float: right;
+  }
+  .partone{
+    width: 50%;
+    float: left;
+    padding: 50px 0 30px;
+    color: #2F4858;
+  }
+  .parttwo{
+    width: 50%;
+    float: left;
+    padding: 50px 0 30px;
+    color: #2F4858;;
+  }
+  .button{
+    color:wheat;
+    background-color: orange;
+    border-radius: 10px;
+    border: orange;
+    font-size: 18px;
+    padding: 10px 40px 10px 40px ;
+    margin-top: 10px;
+  }
+  .input1{
+    background-color: #C4C4C4;
+    color:  #2F4858;
+    width: 200px;
+  }
+  .input2{
+    background-color: #C4C4C4;
+    color:  #2F4858;
+    width: 200px;
+  }
+  .input3{
+    background-color: #C4C4C4;
+    color:  #2F4858;
+    width: 410px;
+  }
+  .input4{
+    background-color: #C4C4C4;
+    color:  #2F4858;
+    width: 410px;
+    height: 200px;
+  }
+  .sazina{
+    padding-bottom: 30px;
+    padding-top: 20;
+  }
+  .sponsori{
+    background-color:#FFCB66;
+    padding: 0px 0px 50px ;
+  }
+
+  h4{
+    color: #2F4858;
+  }
+  h3{
+    color: #2F4858;
+  }
+
+.paragraph{
+    text-align: center;
+    padding: 100px 0 100px;
+    color: #2F4858;
+}
+
+.footer{
+    color: white;
+    background-color: #2F4858;
+    padding: 0 0 250px 0;
+}
+.pirma{
+    width: 25%;
+    padding: 0px;
+    float: left;
+    background-color: #2F4858;
+}
+.otra{
+    text-align: left;
+    width: 25%;
+    padding: 0px;
+    float: left;
+    background-color: #2F4858;
+}
+.tresa{
+    text-align: left;
+    width: 25%;
+    padding: 0px;
+    background-color: #2F4858;
+    float: left;
+}
+.ceturta{
+    text-align: left;
+    width: 25%;
+    padding: 0px;
+    background-color: #2F4858;
+    float: left;
+}
+
+
+@media screen and (max-width: 940px) {
+    .header a {
+      float: none;
+      display: grid;
+      text-align: center;
+    }
+    .header-right {
+      float: none;
+    }
+    .partone{
+        width: 100%;
+    }
+    .parttwo{
+        width: 100%;
+    }
+    .pirma{
+        width: 50%;
+    }
+    .otra{
+        width: 50%;
+    }
+    .tresa{
+        width: 50%;
+    }
+    .ceturta{
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .pirma{
+        width: 100%;
+    }
+    .otra{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .tresa{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .ceturta{
+        width: 100%;
+        padding-left: 10px;
+    }
+
+}
